@@ -30,6 +30,31 @@ namespace HelloWorld
             Arrays arrays = new Arrays();
             arrays.general();
 
+            Strings str = new Strings();
+            str.general();
+
+
+            Enums enums = new Enums();
+            enums.general();
+
+
+            ReferenceTypesValueTypes refVal = new ReferenceTypesValueTypes();
+            refVal.general();
+
+
+            var number = 1;
+            AgeRecord.Increment(number);
+            Console.WriteLine(number);
+
+            var person = new Person() { Age = 20 };
+            AgeRecord.MakeOld(person);
+            Console.WriteLine(person.Age);
+
+
+            IfElseSwitch cond = new IfElseSwitch();
+            cond.IfElse();
+            cond.CondOpr();
+
             
         }
     }
