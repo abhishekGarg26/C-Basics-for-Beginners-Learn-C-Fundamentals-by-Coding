@@ -1,14 +1,11 @@
 ﻿namespace HelloWorld
 {
-    public partial class IfElseSwitch
+    public enum Season
     {
-        public enum Season
-        {
-            Spring,
-            Summer,
-            Autumn,
-            Winter
-        }
-
+        Spring,
+        Summer,
+        Autumn,
+        Winter
     }
+
 }
