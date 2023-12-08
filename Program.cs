@@ -7,7 +7,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            /*dataTypesVariables dtV = new dataTypesVariables();
+            dataTypesVariables dtV = new dataTypesVariables();
             dtV.general();
 
             typeConversion tc = new typeConversion();
@@ -55,24 +55,37 @@ namespace HelloWorld
             cond.IfElse();
             cond.CondOpr();
             cond.general();
-           
+
 
             Exercise_1 ex1 = new Exercise_1();
             ex1.prgm4();
-            
+
 
             Loops loop = new Loops();
             loop.forLoop();
             loop.forEachLoop();
             loop.whileLoop();
-            
+
 
             RandomNums randomNum = ne1w RandomNums();
             randomNum.general();
-            */
+
 
             Exercise_2 ex2 = new Exercise_2();
             ex2.prgm5();
+
+
+            ArrayTypes arr = new ArrayTypes();
+            arr.general();
+
+
+            Lists list = new Lists();
+            list.general();
+
+
+            Exercise_3 exr3 = new Exercise_3();
+            exr3.prgm5();
+
 
             
         }
