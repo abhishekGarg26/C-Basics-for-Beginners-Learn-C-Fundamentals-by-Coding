@@ -67,7 +67,7 @@ namespace HelloWorld
             loop.whileLoop();
 
 
-            RandomNums randomNum = ne1w RandomNums();
+            RandomNums randomNum = new RandomNums();
             randomNum.general();
 
 
@@ -86,6 +86,9 @@ namespace HelloWorld
             Exercise_3 exr3 = new Exercise_3();
             exr3.prgm5();
 
+            DateNTime dateTime = new DateNTime();
+            dateTime.dateTm();
+            dateTime.Timespn();
 
             
         }
