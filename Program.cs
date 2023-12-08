@@ -90,6 +90,9 @@ namespace HelloWorld
             dateTime.dateTm();
             dateTime.Timespn();
 
+            StringMethods stm = new StringMethods();
+            stm.general();
+
             
         }
     }
