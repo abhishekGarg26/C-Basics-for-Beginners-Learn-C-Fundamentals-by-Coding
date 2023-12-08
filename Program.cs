@@ -7,91 +7,94 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            dataTypesVariables dtV = new dataTypesVariables();
-            dtV.general();
+            /* dataTypesVariables dtV = new dataTypesVariables();
+             dtV.general();
 
-            typeConversion tc = new typeConversion();
-            tc.general();
+             typeConversion tc = new typeConversion();
+             tc.general();
 
-            arithmaticOperators aO = new arithmaticOperators();
-            aO.general();
-
-
-            ClassesDemo cd = new ClassesDemo();
-            cd.FirstName = "John";
-            cd.LastName = "Smith";
-            cd.Introduce();
-
-            Calculator calculator = new Calculator();
-            var results = calculator.Add(1, 2);
-            Console.WriteLine(results);
+             arithmaticOperators aO = new arithmaticOperators();
+             aO.general();
 
 
-            Arrays arrays = new Arrays();
-            arrays.general();
+             ClassesDemo cd = new ClassesDemo();
+             cd.FirstName = "John";
+             cd.LastName = "Smith";
+             cd.Introduce();
 
-            Strings str = new Strings();
-            str.general();
-
-
-            Enums enums = new Enums();
-            enums.general();
-
-
-            ReferenceTypesValueTypes refVal = new ReferenceTypesValueTypes();
-            refVal.general();
+             Calculator calculator = new Calculator();
+             var results = calculator.Add(1, 2);
+             Console.WriteLine(results);
 
 
-            var number = 1;
-            AgeRecord.Increment(number);
-            Console.WriteLine(number);
+             Arrays arrays = new Arrays();
+             arrays.general();
 
-            var person = new Person() { Age = 20 };
-            AgeRecord.MakeOld(person);
-            Console.WriteLine(person.Age);
+             Strings str = new Strings();
+             str.general();
 
 
-            IfElseSwitch cond = new IfElseSwitch();
-            cond.IfElse();
-            cond.CondOpr();
-            cond.general();
+             Enums enums = new Enums();
+             enums.general();
 
 
-            Exercise_1 ex1 = new Exercise_1();
-            ex1.prgm4();
+             ReferenceTypesValueTypes refVal = new ReferenceTypesValueTypes();
+             refVal.general();
 
 
-            Loops loop = new Loops();
-            loop.forLoop();
-            loop.forEachLoop();
-            loop.whileLoop();
+             var number = 1;
+             AgeRecord.Increment(number);
+             Console.WriteLine(number);
+
+             var person = new Person() { Age = 20 };
+             AgeRecord.MakeOld(person);
+             Console.WriteLine(person.Age);
 
 
-            RandomNums randomNum = new RandomNums();
-            randomNum.general();
+             IfElseSwitch cond = new IfElseSwitch();
+             cond.IfElse();
+             cond.CondOpr();
+             cond.general();
 
 
-            Exercise_2 ex2 = new Exercise_2();
-            ex2.prgm5();
+             Exercise_1 ex1 = new Exercise_1();
+             ex1.prgm4();
 
 
-            ArrayTypes arr = new ArrayTypes();
-            arr.general();
+             Loops loop = new Loops();
+             loop.forLoop();
+             loop.forEachLoop();
+             loop.whileLoop();
 
 
-            Lists list = new Lists();
-            list.general();
+             RandomNums randomNum = new RandomNums();
+             randomNum.general();
 
 
-            Exercise_3 exr3 = new Exercise_3();
-            exr3.prgm5();
+             Exercise_2 ex2 = new Exercise_2();
+             ex2.prgm5();
 
-            DateNTime dateTime = new DateNTime();
-            dateTime.dateTm();
-            dateTime.Timespn();
 
-            StringMethods stm = new StringMethods();
-            stm.general();
+             ArrayTypes arr = new ArrayTypes();
+             arr.general();
+
+
+             Lists list = new Lists();
+             list.general();
+
+
+             Exercise_3 exr3 = new Exercise_3();
+             exr3.prgm5();
+
+             DateNTime dateTime = new DateNTime();
+             dateTime.dateTm();
+             dateTime.Timespn();
+
+             StringMethods stm = new StringMethods();
+             stm.general();*/
+
+            var sentence = "This is going to be a really really really really really long text.";
+            Console.WriteLine(SummarizingText.SummerizeText(sentence,25));
 
             
         }
